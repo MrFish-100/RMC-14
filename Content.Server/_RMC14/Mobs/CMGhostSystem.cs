@@ -91,6 +91,22 @@ namespace Content.Server._RMC14.Mobs
             }
         }
 
+        private void OnHealthScanAction(EntityUid uid, CMGhostComponent comp, ToggleHeathScanActionEvent args)
+        {
+            args.Handled = true;
+
+            if (HasComp<CMGhostHealthScanComponent>(uid))
+            {
+                RemComp<CMGhostHealthScanComponent>(uid);
+                _actions.SetToggled(comp.ToggleXenoHudEntity, true);
+            }
+            else
+            {
+                AddComp<CMGhostHealthScanComponent>(uid);
+                _actions.SetToggled(comp.ToggleXenoHudEntity, false);
+            }
+        }
+
         private void OnCMGhostInit(Entity<CMGhostComponent> cmghost, ref MapInitEvent args)
         {
             if (TryComp<GhostComponent>(cmghost, out var ghost))

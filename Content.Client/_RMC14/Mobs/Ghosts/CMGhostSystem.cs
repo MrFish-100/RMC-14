@@ -19,6 +19,7 @@ namespace Content.Client._RMC14.Mobs.Ghosts
             _actions.RemoveAction(uid, comp.ToggleMarineHudEntity);
             _actions.RemoveAction(uid, comp.ToggleXenoHudEntity);
             _actions.RemoveAction(uid, comp.FindParasiteEntity);
+            _actions.RemoveAction(uid, comp.ToggleHeathScanActionEvent);
         }
     }
 }

@@ -27,9 +27,17 @@ public sealed partial class CMGhostComponent : Component
 
     [DataField, AutoNetworkedField]
     public EntityUid? FindParasiteEntity;
+
+    [DataField]
+    public EntProtoId ToggleHeathScanActionEvent = "ActionToggleHealthScan";
+
+    [DataField, AutoNetworkedField]
+    public EntityUid? ToggleHeathScanActionEvent;
 }
 
 
 public sealed partial class ToggleMarineHudActionEvent : InstantActionEvent { }
 
 public sealed partial class ToggleXenoHudActionEvent : InstantActionEvent { }
+
+public sealed partial class ToggleHeathScanActionEvent : InstantActionEvent { }
