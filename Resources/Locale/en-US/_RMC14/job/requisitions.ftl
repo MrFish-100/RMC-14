@@ -1,4 +1,9 @@
-﻿# requisitions
+# requisitions
+cm-job-name-armorytech = Armory Technician
+cm-job-description-armorytech = Your job is to manage and customize firearms, including assisting Requisitions.
+cm-job-prefix-armorytech = AT
+CMJobArmoryTech = Armory Technician
+
 cm-job-name-quartermaster = Logistics Officer
 cm-job-description-quartermaster = Your job is to manage the logistics of the ship, including requisitions and food.
 cm-job-prefix-quartermaster = LO
