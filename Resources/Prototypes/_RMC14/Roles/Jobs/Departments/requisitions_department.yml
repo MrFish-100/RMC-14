@@ -1,4 +1,4 @@
-﻿- type: department
+- type: department
   parent: CMDepartmentBase
   id: CMRequisitions
   name: department-CMRequisitions
@@ -7,5 +7,6 @@
   roles:
   - CMQuartermaster
   - CMCargoTech
+  - CMArmoryTech
   departmentRadio: MarineRequisition
   headOfDepartment: CMQuartermaster

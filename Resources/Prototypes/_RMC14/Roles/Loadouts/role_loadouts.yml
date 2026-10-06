@@ -882,6 +882,31 @@
 
 # Requsitions
 - type: roleLoadout
+  id: JobCMArmoryTech
+  points: 7
+  groups:
+  - MarineTechnicianBackpack
+  - HeadwearRMC
+  - EyewearRMC
+  - MasksRMC
+  - HelmetGarbsRMC
+  - AccessoriesRMC
+  - WatchesBasicRMC
+  - PaperworkRMC
+  - RecreationalRMC
+  - PlushiesRMC
+  - WeaponsRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+  - RMCLoadoutGroupPins
+  - SmokablesRMC
+  - MiscellaneousRMC
+  - MeleeWeaponsRMC
+
+- type: roleLoadout
   id: JobCMCargoTech
   points: 7
   groups:

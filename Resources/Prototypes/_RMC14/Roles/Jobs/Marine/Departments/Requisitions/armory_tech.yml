@@ -9,7 +9,7 @@
   - !type:DepartmentTimeRequirement
     department: CMJobCargoTech
     time: 18000 # 5 hours
-  - !type:DepartmentTimeRequirement
+  - !type:DepartmentTimeRequirement #TODO: DECIDE JOB HOURS
     department: CMJobsEngineering
     time: 18000 # 5 hours
   ranks:
@@ -18,7 +18,7 @@
       role: CMJobArmoryTech
       time: 252000 # 70 hours
     RMCRankPrivateFirstClass:
-    - !type:RoleTimeRequirement
+    - !type:RoleTimeRequirement #TODO: RANKUP REQUIREMENT
       role: CMJobArmoryTech
       time: 36000 # 10 hours
     RMCRankPrivate: []
@@ -26,9 +26,8 @@
   icon: "CMJobIconArmoryTech"
   joinNotifyCrew: false
   supervisors: cm-job-supervisors-qm
-  accessGroups: #TODO: ACCESS GROUP
+  accessGroups:
   - CMCargoTech
-#  - CMArmoryTech
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
