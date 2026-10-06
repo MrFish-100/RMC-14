@@ -1,4 +1,4 @@
-﻿- type: accessGroup
+- type: accessGroup
   id: QuarterMaster
   parent: RMCBaseRequisitionsJob
   name: Logistics Officer

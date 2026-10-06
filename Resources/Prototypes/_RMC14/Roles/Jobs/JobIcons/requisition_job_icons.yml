@@ -1,5 +1,12 @@
 - type: jobIcon
   parent: CMJobIconBase
+  id: CMJobIconArmoryTech
+  icon:
+    sprite: _RMC14/Interface/job_icons/UNMC/requisition.rsi
+    state: hudsquad_at
+
+- type: jobIcon
+  parent: CMJobIconBase
   id: CMJobIconQuartermaster
   icon:
     sprite: _RMC14/Interface/job_icons/UNMC/requisition.rsi

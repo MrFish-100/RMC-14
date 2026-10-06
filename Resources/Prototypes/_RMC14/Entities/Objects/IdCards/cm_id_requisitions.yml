@@ -1,4 +1,12 @@
-﻿- type: entity
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardArmoryTech
+  name: armory tech's ID card
+  components:
+  - type: PresetIdCard
+    job: CMArmoryTech
+
+- type: entity
   parent: CMIDCardSilver
   id: CMIDCardQuartermaster
   name: Logistics Officer ID card

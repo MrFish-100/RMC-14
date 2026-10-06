@@ -1,4 +1,4 @@
-- type: job
+- type: job #TODO: FUTURE GUIDEBOOK
   parent: CMJobBase
   id: CMArmoryTech
   name: cm-job-name-armorytech
@@ -23,7 +23,7 @@
       time: 36000 # 10 hours
     RMCRankPrivate: []
   startingGear: CMGearArmoryTech
-  icon: "CMJobIconCargoTech" #TODO: ICON
+  icon: "CMJobIconArmoryTech"
   joinNotifyCrew: false
   supervisors: cm-job-supervisors-qm
   accessGroups: #TODO: ACCESS GROUP
@@ -45,9 +45,9 @@
     - type: JobPrefix
       prefix: cm-job-prefix-armorytech
     - type: TacticalMapIcon
-      icon: # TODO: ICON
+      icon: 
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: cargo
+        state: at
       background:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: background_shipside
@@ -60,7 +60,7 @@
     shoes: CMBootsBlack
     head: CMHeadCapCargo
     gloves: CMHandsInsulated
-#    id: CMIDCardCargoTech
+    id: CMIDCardArmoryTech
     ears: CMHeadsetRequisition
     pocket1: RMCPouchGeneralMedium
     pocket2: CMStampApproved
