@@ -7,6 +7,6 @@
   roles:
   - CMQuartermaster
   - CMCargoTech
-  - CMArmoryTech
+  - RMCArmoryTech
   departmentRadio: MarineRequisition
   headOfDepartment: CMQuartermaster

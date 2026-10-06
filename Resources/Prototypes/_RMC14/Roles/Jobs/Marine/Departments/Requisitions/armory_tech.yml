@@ -1,10 +1,10 @@
 - type: job #TODO: FUTURE GUIDEBOOK
   parent: CMJobBase
-  id: CMArmoryTech
-  name: cm-job-name-armorytech
-  description: cm-job-description-armorytech
+  id: RMCArmoryTech
+  name: rmc-job-name-armorytech
+  description: rmc-job-description-armorytech
 #  newToJobInfo: rmc-new-to-job-req-tech
-  playTimeTracker: CMJobArmoryTech
+  playTimeTracker: RMCJobArmoryTech
   requirements:
   - !type:DepartmentTimeRequirement
     department: CMJobCargoTech
@@ -15,19 +15,19 @@
   ranks:
     RMCRankLanceCorporal:
     - !type:RoleTimeRequirement
-      role: CMJobArmoryTech
+      role: RMCJobArmoryTech
       time: 252000 # 70 hours
     RMCRankPrivateFirstClass:
     - !type:RoleTimeRequirement #TODO: RANKUP REQUIREMENT
-      role: CMJobArmoryTech
+      role: RMCJobArmoryTech
       time: 36000 # 10 hours
     RMCRankPrivate: []
-  startingGear: CMGearArmoryTech
-  icon: "CMJobIconArmoryTech"
+  startingGear: RMCGearArmoryTech
+  icon: "RMCJobIconArmoryTech"
   joinNotifyCrew: false
   supervisors: cm-job-supervisors-qm
   accessGroups:
-  - CMCargoTech
+  - RMCArmoryTech
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -39,10 +39,10 @@
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillPowerLoader: 2
-    - type: CMVendorUser
-      id: CMCargoTech
+    - type: CMVendorUser #Check
+      id: RMCArmoryTech
     - type: JobPrefix
-      prefix: cm-job-prefix-armorytech
+      prefix: rmc-job-prefix-armorytech
     - type: TacticalMapIcon
       icon: 
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
@@ -53,13 +53,13 @@
     - type: MutinyEligible
 
 - type: startingGear #TODO: STARTING GEAR
-  id: CMGearArmoryTech
+  id: RMCGearArmoryTech
   equipment:
     jumpsuit: CMJumpsuitCargoTech
     shoes: CMBootsBlack
     head: CMHeadCapCargo
     gloves: CMHandsInsulated
-    id: CMIDCardArmoryTech
+    id: RMCIDCardArmoryTech
     ears: CMHeadsetRequisition
     pocket1: RMCPouchGeneralMedium
     pocket2: CMStampApproved
@@ -67,14 +67,14 @@
 
 - type: entity #TODO: TEST MAP + SPAWNPOINT
   parent: CMSpawnPointJobBase
-  id: CMSpawnPointCargoTech
-  name: req tech spawn point
+  id: CMSpawnPointArmoryTech
+  name: armory tech spawn point
   components:
   - type: SpawnPoint
-    job_id: CMCargoTech
+    job_id: RMCArmoryTech
   - type: Sprite
-    state: ct_spawn
+    state: ct_spawn #TODO SPRITE
 
 - type: playTimeTracker
-  id: CMJobArmoryTech
+  id: RMCJobArmoryTech
   isHumanoid: true

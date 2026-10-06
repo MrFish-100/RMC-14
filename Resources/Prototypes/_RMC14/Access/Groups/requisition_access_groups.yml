@@ -16,6 +16,13 @@
   - RMCAccessSeniorCommand
 
 - type: accessGroup
+  id: RMCArmoryTech
+  parent: RMCBaseRequisitionsJob
+  name: Armory Technician
+  tags:
+  - CMAccessRequisitions
+
+- type: accessGroup
   id: CMCargoTech
   parent: RMCBaseRequisitionsJob
   name: Requisitions Technician

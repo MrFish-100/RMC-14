@@ -1,8 +1,8 @@
 # requisitions
-cm-job-name-armorytech = Armory Technician
-cm-job-description-armorytech = Your job is to manage and customize firearms, including assisting Requisitions.
-cm-job-prefix-armorytech = AT
-CMJobArmoryTech = Armory Technician
+rmc-job-name-armorytech = Armory Technician
+rmc-job-description-armorytech = Your job is to manage and customize firearms, including assisting Requisitions.
+rmc-job-prefix-armorytech = AT
+RMCJobArmoryTech = Armory Technician
 
 cm-job-name-quartermaster = Logistics Officer
 cm-job-description-quartermaster = Your job is to manage the logistics of the ship, including requisitions and food.

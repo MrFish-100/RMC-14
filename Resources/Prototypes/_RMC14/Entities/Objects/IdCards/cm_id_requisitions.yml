@@ -1,10 +1,10 @@
 - type: entity
   parent: CMIDCardBase
-  id: CMIDCardArmoryTech
+  id: RMCIDCardArmoryTech
   name: armory tech's ID card
   components:
   - type: PresetIdCard
-    job: CMArmoryTech
+    job: RMCArmoryTech
 
 - type: entity
   parent: CMIDCardSilver

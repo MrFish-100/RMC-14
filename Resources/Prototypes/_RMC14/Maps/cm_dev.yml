@@ -1,4 +1,4 @@
-﻿- type: gameMap
+- type: gameMap
   id: RMCDev
   mapName: RMCDev
   mapPath: /Maps/_RMC14/Test/dev_map.yml
@@ -46,6 +46,7 @@
           RMCWeYaExecutiveBodyguard: [ -1, -1 ]
           CMMessTech: [ -1, -1 ]
           CMSeniorEnlistedAdvisor: [ -1, -1 ]
+          RMCArmoryTech: [ -1, -1 ]
           CMCargoTech: [ -1, -1 ]
           CMQuartermaster: [ -1, -1 ]
           CMSurvivor: [ -1, -1 ]

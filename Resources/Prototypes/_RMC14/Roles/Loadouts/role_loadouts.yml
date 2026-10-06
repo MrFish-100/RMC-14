@@ -882,7 +882,7 @@
 
 # Requsitions
 - type: roleLoadout
-  id: JobCMArmoryTech
+  id: JobRMCArmoryTech
   points: 7
   groups:
   - MarineTechnicianBackpack
